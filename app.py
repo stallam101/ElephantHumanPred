@@ -12,6 +12,9 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route("/elephanthumanprediction")
+def elephantHumanPred():
+    return render_template("elephanthumanprediction.html")
 
 
 if __name__ == "__main__":
